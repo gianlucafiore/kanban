@@ -8,6 +8,6 @@ module.exports = {
     },
   ],
   sc_plugin_api_version: 1,
-  plugin_name: "kanban",
+  plugin_name: "kanban_v2",
   viewtemplates: [require("./kanban"), require("./allocator")],
 };
