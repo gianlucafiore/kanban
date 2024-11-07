@@ -1,5 +1,5 @@
 {
-  "name": "@saltcorn/kanban",
+  "name": "@gianlucafiore/kanban_v2",
   "version": "0.4.4",
   "description": "Kanban view plugin",
   "main": "index.js",
