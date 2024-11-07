@@ -279,6 +279,7 @@ const get_state_fields = async (table_id, viewname, { show_view }) => {
   const table_fields = table.fields;
   return table_fields
     .filter((f) => !f.primary_key)
+    .filter(f => estado == 4)
     .map((f) => {
       const sf = new Field(f);
       sf.required = false;
